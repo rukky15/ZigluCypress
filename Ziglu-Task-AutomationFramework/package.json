@@ -1,0 +1,21 @@
+{
+  "name": "ziglu-task-automationframework",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    
+    "cyrun": "node_modules/.bin/cypress open",
+    "npxopen": "npx cypress open"
+  },
+  "author": "Rukkydidit",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^4.6.4",
+    "cypress":"9.7.0",
+    "chai":"4.3.6",
+    "cypress-xpath":"1.6.2",
+    "cucumber":"6.0.7",
+    "cypress-real-events":"1.7.0"
+  }
+}
